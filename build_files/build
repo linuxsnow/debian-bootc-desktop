@@ -9,7 +9,8 @@ apt-get update -y
 apt-get install -y \
   gnome-core \
   gnome-initial-setup \
-  ptyxis
+  ptyxis \
+  pipewire
 
 # Remove unwanted bits of GNOME Core
 apt purge -y \
