@@ -12,6 +12,8 @@ apt-get install -y \
 
 # Remove unwanted bits of GNOME Core
 apt purge -y \
+  evolution \
+  firefox-esr \
   gnome-calculator \
   gnome-calendar \
   gnome-characters \
