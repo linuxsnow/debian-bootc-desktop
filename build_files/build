@@ -36,8 +36,3 @@ apt purge -y \
   yelp
 
 apt list --installed > /usr/share/snow/desktop-packages.after-cleanup.txt
-
-
-apt autoremove -y --purge
-
-apt list --installed > /usr/share/snow/desktop-packages.after-purge.txt
