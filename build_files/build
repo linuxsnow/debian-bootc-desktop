@@ -10,7 +10,8 @@ apt-get install -y \
   gnome-core \
   gnome-initial-setup \
   ptyxis \
-  pipewire
+  pipewire \
+  dbus-broker
 
 mkdir -p /usr/share/snow
 apt list --installed > /usr/share/snow/desktop-packages.txt
