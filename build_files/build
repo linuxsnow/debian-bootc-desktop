@@ -59,6 +59,7 @@ apt-get install -y \
 apt-get install -y \
 	gnome-core \
 	gnome-initial-setup \
+	tuned-ppd \
 	ptyxis \
 	pipewire \
 	dbus-broker
